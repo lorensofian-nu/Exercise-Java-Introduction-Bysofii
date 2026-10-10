@@ -8,6 +8,7 @@ public class NumeroParImpar {
         int numero = 0;
 
         try {
+            System.out.println("Ingresa un numero bot: ");
             numero = Integer.parseInt(sc.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Hubo un problema al castear el numero -> " + e.getMessage());
